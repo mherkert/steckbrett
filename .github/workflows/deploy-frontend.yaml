@@ -2,12 +2,15 @@ name: Deploy to S3 and Invalidate CloudFront
 
 on:
   push:
+    paths:
+      - 'apps/steckbrett-frontend/**'
+      - '.github/workflows/deploy-frontend.yml'
     branches: [main]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
+        
     steps:
       - name: Checkout code
         uses: actions/checkout@v3

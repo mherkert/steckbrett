@@ -1,5 +1,11 @@
 URL: http://steckbrett-frontend.s3-website.eu-north-1.amazonaws.com/
 
+
+Check auth: https://us-east-1pee3jn6vr.auth.us-east-1.amazoncognito.com/error?error=invalid_request&client_id=abcdefgh12345678
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

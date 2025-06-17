@@ -10,7 +10,7 @@ createRoot(document.getElementById("root")!).render(
       domain="dev-ay0wof11rdljrkqm.eu.auth0.com"
       clientId="oemrAM6JjLiBwepz1ijWxp6QIcSHtvde"
       authorizationParams={{
-        redirect_uri: window.location.origin + "/callback",
+        redirect_uri: "http://www.steckbrett.org/callback",
       }}
     >
       <App />
